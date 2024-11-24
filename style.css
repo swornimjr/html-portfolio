@@ -1,0 +1,78 @@
+/* root setting */
+:root{
+    /* lightColors */
+    --bg-color: #bde7fd;
+    --text-color: black;
+    --border-color: black;
+    --primary-color: #FF4600;
+    --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
+}
+
+
+body
+{
+    background-color: var(--bg-color);
+    margin: 0px;
+}
+
+
+/* flexClass */
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+
+/* navContainer */
+.navContainer{    
+    padding: 16px 32px;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    justify-content: space-between;
+}
+
+.navItems{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.logoName{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.title{
+    letter-spacing: 5px;
+
+}
+
+
+.divider{
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+
+/* Nav Items */
+.ulClass{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.ulClass a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.ulClass a:hover{
+    color: var(--primary-color);
+}
