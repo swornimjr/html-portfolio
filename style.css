@@ -143,8 +143,42 @@ body
     /* #hamburger:not(:checked) + .sidemenue{
         display: none;
     } */
-
-
     
+}
+
+/* HeroSection */
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.heroSection{
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    margin: 4rem 12px ;
+    max-height:60vh;
+}
+
+.introText{color: white;
+        padding: 8px;
+    }
+.download-btn{background-color: black;color: white;
+border:none;padding: 10px;border-radius: 10px;}
+
+.download-btn:hover{
+    cursor: pointer;
+}
+
+.imageHero{
+    margin: -32px;
+}
+
+.imageHero img{
+    /* image-orientation: flip; */
+    height: 500px;
+
 }
 
