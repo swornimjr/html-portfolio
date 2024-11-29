@@ -221,3 +221,10 @@ body
         font-size: 2rem;
     }
 
+
+    .experienceContainer{
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
