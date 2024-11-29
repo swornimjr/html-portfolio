@@ -186,7 +186,7 @@ body
 
 .imageHero img{
     /* image-orientation: flip; */
-    height: 500px;
+    height: 450px;
 
 }
 
@@ -223,8 +223,36 @@ body
 
 
     .experienceContainer{
+        margin: 30px;
+        border-radius: 20px 20px 0px 0px;
+        /* background-color: #ff4400ad; */
         padding: 30px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 1.5rem;
+       
+    }
+
+    .experienceContainer :nth-child(1) i{
+        color: blue;
+        
+    }
+
+    .experienceContainer :nth-child(2) i{
+        color: red;
+       
+    }
+
+    .experienceContainer :nth-child(3) i{
+        color: yellow;
+
+       
+    }
+
+    
+    .experienceContainer :nth-child(5) i{
+        color: violet;
+       
     }
 
