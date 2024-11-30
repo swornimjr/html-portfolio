@@ -329,3 +329,32 @@ body
         color: var(--primary-color);
         margin-left: 20px;
     }
+
+    /* footerStyle */
+
+    .footerContainer{
+        align-items: start;
+        background-color: var(--text-color);
+        color: white;
+        margin-top: 12px;
+        gap: 30px;
+    }
+
+    .footerContainer ul{
+        padding: 0px;
+        list-style: none ;
+
+        
+    }
+
+    .footerContainer li a{
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .centerfooter{
+        font-size: small;
+        color: white;
+        background-color: black;
+    }
