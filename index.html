@@ -15,35 +15,288 @@
     <title>Swornim Maharjan</title>
   </head>
   <body>
-    <header>
-      <!-- navBar -->
-      <nav>
-        <div class="flexContainer navContainer">
-          <div class="navItems">
-            <div class="logoName">
-              <span style="font-style: italic; font-size: larger">S</span>wornim
+    <!---Dark Mode Toggle-->
+    <label class="darmodeTog" for="darkMode"
+      ><i class="fa-solid fa-circle-half-stroke"></i
+    ></label>
+    <input type="checkbox" id="darkMode" />
+    <div class="wrapperContainer">
+      <header>
+        <!-- navBar -->
+        <nav>
+          <div class="flexContainer navContainer">
+            <div class="navItems">
+              <div class="logoName">
+                <span style="font-style: italic; font-size: larger">S</span
+                >wornim
+              </div>
+              <div class="divider">|</div>
+              <div class="title">Web Developer</div>
             </div>
-            <div class="divider">|</div>
-            <div class="title">Web Developer</div>
+
+            <!-- navitems -->
+            <ul class="ulClass flexContainer">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skilles">Skills</a></li>
+              <li><a href="#about"> About</a></li>
+              <li><a href="#contact"> Contact</a></li>
+              <li><a href="#projects"> Projects</a></li>
+            </ul>
+
+            <!-- hamburger -->
+            <label for="hamburger">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="hamburger" />
+            <!-- sidemenue -->
+            <div class="sidemenue">
+              <ul class="side-ulClass flexContainer">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skilles">Skills</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#contact"> Contact</a></li>
+                <li><a href="#projects"> Projects</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- heroSection -->
+      <section id="home">
+        <div class="gridContainer heroSection">
+          <div class="introText">
+            <p>Hi I am <b>Swornim</b></p>
+            <p><b>Web Developer</b></p>
+            <br />
+            <p>I love to code</p>
+            <a href="assets/resume.pdf" download="true"
+              ><button class="download-btn">
+                Download CV <i class="fa-solid fa-download"></i></button
+            ></a>
+          </div>
+          <div class="imageHero">
+            <img src="assets/mypic.png" alt="profiletag" />
+          </div>
+        </div>
+      </section>
+
+      <!-- summary Section -->
+      <section>
+        <div class="flexContainer summaryContainer">
+          <div class="educationContainer">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <span>IT</span>
+              <p>Graduate</p>
+            </div>
+          </div>
+          <div class="verticalLine">|</div>
+          <div>
+            <div class="educationContainer">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <span>5+</span>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+          <div class="verticalLine">|</div>
+          <div>
+            <div class="educationContainer">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <span>10+</span>
+                <p>Years</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Skills">
+        <h1 style="text-align: center">$kills!</h1>
+        <div class="experienceContainer">
+          <div class="div1"><i class="fa-brands fa-html5"></i> <br />HTML</div>
+          <div class="div1">
+            <i class="fa-brands fa-css3-alt"></i> <br />CSS
+          </div>
+          <div class="div1"><i class="fa-brands fa-node-js"></i> <br />JS</div>
+          <div class="div1">
+            <i class="fa-brands fa-github"></i> <br />GitHub
+          </div>
+          <div class="div1"><i class="fa-brands fa-figma"></i> <br />Figma</div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1 style="text-align: center">My recent Works</h1>
+        <div class="cardContainer">
+          <!-- Project1 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
           </div>
 
-          <!-- navitems -->
-          <ul class="ulClass flexContainer">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skilles">Skills</a></li>
-            <li><a href="#about"> About</a></li>
-            <li><a href="#contact"> Contact</a></li>
-            <li><a href="#projects"> Projects</a></li>
-          </ul>
+          <!-- Project2 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
 
-          <!-- hamburger -->
-          <label for="hamburger">
-            <i class="fa-solid fa-bars"></i>
-          </label>
-          <input type="checkbox" id="hamburger" />
-          <!-- sidemenue -->
-          <div class="sidemenue">
-            <ul class="side-ulClass flexContainer">
+          <!-- Project3 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
+
+          <!-- Project4 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
+
+          <!-- Project5 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
+
+          <!-- Project6 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
+
+          <!-- Project7 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
+
+          <!-- Project8 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
+
+          <!-- Project9 -->
+          <div class="projectCard">
+            <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
+            <div class="card-icons">
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="recentText">
+              <h4>Personal Portfolio</h4>
+              <p>HTML | CSS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About me Section -->
+      <section id="abouMEID">
+        <div class="aboutMEContainer">
+          <div class="imagesection">
+            <img height="200px" src="assets/mypic.png" />
+          </div>
+          <div class="textFlex">
+            <h1 style="padding-left: 40%">About Me</h1>
+            <h2>Swornim</h2>
+            <h3>Front End Dveloper</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+              soluta corporis eos fuga illum atque corrupti vero incidunt quidem
+              sint eius voluptatem et, similique repellendus fugiat voluptatibus
+              magnam a dolor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get in touch Section -->
+      <section id="contact">
+        <h3 style="text-align: center; margin-top: 10px">Get in Touch</h3>
+        <div class="experienceContainer experienceContainerNew">
+          <a href="www.facebook.com" class="div1"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a class="div1"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="div1"><i class="fa-brands fa-youtube"></i></a>
+          <a class="div1"><i class="fa-brands fa-phone"></i></a>
+        </div>
+        <h3 style="text-align: center; margin: 0px">OR</h3>
+
+        <div class="mailContiner">
+          <a href="mailto:swornim@gmai.com">
+            <button class="download-btn">
+              swornim@gmail.com <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </a>
+        </div>
+      </section>
+      <footer id="foot">
+        <div class="flexContainer footerContainer">
+          <div>
+            <h6>Links</h6>
+            <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#skilles">Skills</a></li>
               <li><a href="#about"> About</a></li>
@@ -51,264 +304,23 @@
               <li><a href="#projects"> Projects</a></li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
 
-    <!-- heroSection -->
-    <section id="home">
-      <div class="gridContainer heroSection">
-        <div class="introText">
-          <p>Hi I am <b>Swornim</b></p>
-          <p><b>Web Developer</b></p>
-          <br />
-          <p>I love to code</p>
-          <a href="assets/resume.pdf" download="true"
-            ><button class="download-btn">
-              Download CV <i class="fa-solid fa-download"></i></button
-          ></a>
-        </div>
-        <div class="imageHero">
-          <img src="assets/mypic.png" alt="profiletag" />
-        </div>
-      </div>
-    </section>
-
-    <!-- summary Section -->
-    <section>
-      <div class="flexContainer summaryContainer">
-        <div class="educationContainer">
-          <i class="fa-solid fa-award"></i>
           <div>
-            <span>IT</span>
-            <p>Graduate</p>
+            <h6>Social Links</h6>
+            <ul>
+              <li><a href="#">Linkedin</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#"> GitHub</a></li>
+              <li><a href="#"> Youtube</a></li>
+            </ul>
           </div>
         </div>
-        <div class="verticalLine">|</div>
-        <div>
-          <div class="educationContainer">
-            <i class="fa-solid fa-award"></i>
-            <div>
-              <span>5+</span>
-              <p>Projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="verticalLine">|</div>
-        <div>
-          <div class="educationContainer">
-            <i class="fa-solid fa-award"></i>
-            <div>
-              <span>10+</span>
-              <p>Years</p>
-            </div>
-          </div>
-        </div>
+        <center class="centerfooter">&copy; Made my Sworniim!</center>
+      </footer>
+      <!-- GoToTop -->
+      <div class="topd">
+        <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
       </div>
-    </section>
-
-    <section id="Skills">
-      <h1 style="text-align: center">$kills!</h1>
-      <div class="experienceContainer">
-        <div class="div1"><i class="fa-brands fa-html5"></i> <br />HTML</div>
-        <div class="div1"><i class="fa-brands fa-css3-alt"></i> <br />CSS</div>
-        <div class="div1"><i class="fa-brands fa-node-js"></i> <br />JS</div>
-        <div class="div1"><i class="fa-brands fa-github"></i> <br />GitHub</div>
-        <div class="div1"><i class="fa-brands fa-figma"></i> <br />Figma</div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h1 style="text-align: center">My recent Works</h1>
-      <div class="cardContainer">
-        <!-- Project1 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project2 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project3 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project4 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project5 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project6 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project7 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project8 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-
-        <!-- Project9 -->
-        <div class="projectCard">
-          <div class="cardImage"><img src="assets/swornimmm.JPG" /></div>
-          <div class="card-icons">
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-          <div class="recentText">
-            <h4>Personal Portfolio</h4>
-            <p>HTML | CSS</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About me Section -->
-    <section id="abouMEID">
-      <div class="aboutMEContainer">
-        <div class="imagesection">
-          <img height="200px" src="assets/mypic.png" />
-        </div>
-        <div class="textFlex">
-          <h1 style="padding-left: 40%">About Me</h1>
-          <h2>Swornim</h2>
-          <h3>Front End Dveloper</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta
-            corporis eos fuga illum atque corrupti vero incidunt quidem sint
-            eius voluptatem et, similique repellendus fugiat voluptatibus magnam
-            a dolor.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Get in touch Section -->
-    <section id="contact">
-      <h3 style="text-align: center; margin-top: 10px">Get in Touch</h3>
-      <div class="experienceContainer experienceContainerNew">
-        <a href="www.facebook.com" class="div1"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a class="div1"><i class="fa-brands fa-linkedin"></i></a>
-        <a class="div1"><i class="fa-brands fa-youtube"></i></a>
-        <a class="div1"><i class="fa-brands fa-phone"></i></a>
-      </div>
-      <h3 style="text-align: center; margin: 0px">OR</h3>
-
-      <div class="mailContiner">
-        <a href="mailto:swornim@gmai.com">
-          <button class="download-btn">
-            swornim@gmail.com <i class="fa-solid fa-paper-plane"></i>
-          </button>
-        </a>
-      </div>
-    </section>
-    <footer id="foot">
-      <div class="flexContainer footerContainer">
-        <div>
-          <h6>Links</h6>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skilles">Skills</a></li>
-            <li><a href="#about"> About</a></li>
-            <li><a href="#contact"> Contact</a></li>
-            <li><a href="#projects"> Projects</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h6>Social Links</h6>
-          <ul>
-            <li><a href="#">Linkedin</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#"> GitHub</a></li>
-            <li><a href="#"> Youtube</a></li>
-          </ul>
-        </div>
-      </div>
-      <center class="centerfooter">&copy; Made my Sworniim!</center>
-    </footer>
-    <!-- GoToTop -->
-    <div class="topd">
-      <a  href="#home"> <i class="fa-solid fa-angle-up"></i></a>
     </div>
   </body>
 </html>

@@ -6,6 +6,11 @@
     --border-color: black;
     --primary-color: #FF4600;
     --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
+
+    /* darkmodeColors */
+    --darkBackgroundColor: black;
+    --darkTextColor: white;
+    --darkBorderColor: white
 }
 
 
@@ -193,7 +198,7 @@ body
 
 /* summary section */
 .summaryContainer{
-    background-color: white;
+    --bg-color: #bde7fd;
     border: 2px solid black;
     border-radius: 24px;
     padding: 16px;
@@ -271,7 +276,7 @@ body
     .projectCard{
         width: 200px;
         height: 270px;
-        background-color: white;
+        background-color: var(--bg-color);
         box-shadow: var(--box-shadow);
         
 
@@ -335,7 +340,7 @@ body
     .footerContainer{
         align-items: start;
         background-color: var(--text-color);
-        color: white;
+        color: black;
         margin-top: 12px;
         gap: 30px;
     }
@@ -343,12 +348,14 @@ body
     .footerContainer ul{
         padding: 0px;
         list-style: none ;
+        background-color: black;
+        color: black;
 
         
     }
 
     .footerContainer li a{
-        color: white;
+        color: var(--text-color);  
         text-decoration: none;
 
     }
@@ -375,5 +382,31 @@ body
         font-size: small;
         color: white;
         background-color: black;
+    }
+
+    
+    .darmodeTog{
+        position: fixed;
+        top: 90px;
+        left: 10px;
+        cursor: pointer;
+
+    }
+
+    #darkMode{display: none;}
+
+    .wrapperContainer{
+        background-color: var(--bg-color);
+        color: var(--text-color);
+
+
+    }
+
+    #darkMode:checked ~ .wrapperContainer{
+        --bg-color: var(--darkBackgroundColor);
+        --text-color: var(--darkTextColor);
+
+    
+
     }
  
