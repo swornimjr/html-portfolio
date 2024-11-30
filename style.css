@@ -302,7 +302,7 @@ body
     } 
 
     .aboutMEContainer{
-        margin-top: 10px;
+        
         display: flex;
         height: 280px;
         gap: 10px;
@@ -311,4 +311,21 @@ body
 
     .imagesection{
         padding: 30px;
+    }
+
+    .experienceContainerNew{
+        margin: 0px;
+    }
+
+    
+
+    .mailContiner{
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .mailContiner i{
+        color: var(--primary-color);
+        margin-left: 20px;
     }
